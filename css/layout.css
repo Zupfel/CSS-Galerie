@@ -1,0 +1,36 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}html{-webkit-overflow-scrolling:touch}html,body{height: 100%;width:100%}body{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden}h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{word-wrap:break-word;text-rendering:optimizeLegibility}a{direction:ltr;unicode-bidi:embed}a,a:visited{text-decoration:none}
+/**
+ * Bootstrap v2.1.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+/**
+ * normalize.css
+ *
+ * 2011-07-06T20:20 UTC
+ * http://github.com/jonathantneal/normalize.css
+ */
+html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+/**
+ * HTML5 CSS Reset
+ *
+ * Copyright (c) 2011 736 Computing Services Limited
+ * Released under the MIT license. http://opensource.736cs.com/licenses/mit
+ *
+ * Based on Eric Meyer's CSS Reset and html5doctor.com HTML5 Reset
+ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,audio,canvas,details,figcaption,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,summary,time,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}body{line-height:1}
+/**
+ * print styles
+ */
+@media print{
+	/**
+	 * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/
+	 */
+	*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important}@page{margin: 0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}p{font-size: 85%}h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-family:"Trebuchet MS",georgia,Verdana,Sans-serif;color:#000;background:none;text-decoration:none;font-weight:bold}h1{font-size:20pt}h2{font-size:16pt;margin-top:1em}h3,h4,h5,h6{font-size:14pt;margin-top:1em}pre,blockquote{border:1px solid #999;page-break-inside:avoid}abbr[title]:after{content:" (" attr(title) ")"}a,a:visited{color:#444 !important;text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}a[href^="javascript:"]:after,a[href^="#"]:after{content:""}img{max-width:100% !important;page-break-inside:avoid}thead{display:table-header-group}tr{page-break-inside:avoid}
+}
